@@ -3,7 +3,6 @@ package com.xuzhi.apache.dubbo.provider;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// TODO 061-10:45
 @SpringBootApplication
 public class ProviderApplication {
 

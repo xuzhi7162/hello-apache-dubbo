@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: dubbo-provider
+  main:
+#    用以解决Bean冲突的问题，解决方法是谁最后出现就将其设为bean
+    allow-bean-definition-overriding: true
+dubbo:
+  scan:
+    base-packages: com.xuzhi.apache.dubbo.provider.service
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    address: nacos://127.0.0.1:8848
